@@ -32,13 +32,11 @@ const About = () => {
 
           <div className="w-full md:w-1/2 flex justify-center md:justify-end">
             <div className="relative w-80 h-96 md:w-96 md:h-[30rem]">
-               {/* Placeholder for your image */}
                <img 
                  src={WeiqinYang}
                  alt="Weiqin Yang" 
                  className="w-full h-full object-cover rounded-xl"
                />
-               {/* Optional: Gradient overlay to blend bottom if image isn't cut out */}
                <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-backgro to-transparent"></div>
             </div>
           </div>
