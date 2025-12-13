@@ -3,28 +3,22 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Neon Nights - Music Video",
-      description: "A high-energy music video featuring rapid cuts and glitch effects synchronized to the beat. Handled offline editing and color grading.",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title: "COMLEX 2026 Changes Every DO Med Student and Resident Must Know",
+      description: "Long-form 'edutainment' content, balancing complex information with comedic timing. Utilized dynamic pacing, custom sound design, and background scores to maximize viewer retention throughout the video.",
+      videoUrl: "https://www.youtube.com/embed/cmX-ms_74vM"
     },
     {
       id: 2,
-      title: "Tech Review 2025",
-      description: "Long-form content focused on narrative flow and clean graphical overlays. Designed the motion graphics package used throughout the series.",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      title: "$140,000 Lost Because Of A Med School Practice Test",
+      description: "Crafted hook for an interview segment designed to grab attention immediately. Leveraged rhythmic editing, sound effects, and music to clarify the core message and drive early viewer retention.",
+      videoUrl: "https://www.youtube.com/embed/QF1rschvtyY" 
     },
     {
       id: 3,
-      title: "Indie Game Launch Trailer",
-      description: "Sound design and video editing for an atmospheric indie game. The focus was on building tension through pacing and audio cues.",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title: "DaVinci Resolve Could Be Perfect... If They Fixed This",
+      description: "An end-to-end production demonstrating full creative control. From scripting and filming to the final edit, I integrated custom motion graphics and immersive sound design to elevate the narrative flow.",
+      videoUrl: "https://www.youtube.com/embed/G_suqS6sOz0" 
     },
-    {
-      id: 4,
-      title: "Corporate Documentary",
-      description: "Interview-driven storytelling. Condensed 4 hours of footage into a compelling 5-minute narrative about sustainable energy.",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
-    }
   ];
 
   return (

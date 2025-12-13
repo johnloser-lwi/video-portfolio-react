@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Download, MapPin } from 'lucide-react';
 import WeiqinYang from "../assets/weiqin_yang.png";
+import Resume from "../assets/Resume_weiqinYang_VideoEditor.pdf";
 
 const About = () => {
   return (
@@ -24,9 +25,12 @@ const About = () => {
               <Link to="/projects" className="px-6 py-3 bg-card hover:bg-highlight text-slate-300  hover:text-white rounded-lg font-medium transition-colors">
                 View Projects
               </Link>
-              <button className="cursor-pointer px-6 py-3 bg-card hover:bg-highlight text-slate-300 hover:text-white border border-transparent rounded-lg font-medium transition-colors flex items-center gap-2">
+              <a href={Resume} target="_blank" className="cursor-pointer px-6 py-3 bg-card hover:bg-highlight text-slate-300 hover:text-white border border-transparent rounded-lg font-medium transition-colors flex items-center gap-2">
                 <Download size={18} /> Download Resume
-              </button>
+              </a>
+              <a href="https://www.linkdein.com/in/weiqin-yang-1a666b112" target="_blank" className="cursor-pointer px-6 py-3 bg-card hover:bg-highlight text-slate-300 hover:text-white border border-transparent rounded-lg font-medium transition-colors flex items-center gap-2">
+                LinkedIn
+              </a>
             </div>
           </div>
 
