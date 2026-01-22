@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Download, MapPin } from 'lucide-react';
 import WeiqinYang from "../assets/weiqin_yang.png";
-const Resume =  "../assets/Resume_weiqinYang_VideoEditor.pdf";
+import Resume from  "../assets/Resume_WeiqinYang_VideoEditor.pdf";
 
 const About = () => {
   return (
